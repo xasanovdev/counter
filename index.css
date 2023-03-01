@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100vh;
+}
+body {
+    height: 100%;
+}
+.section {
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.counter__wrapper {
+    background-color: rgb(199, 234, 254);
+    border-radius: 50px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.button {
+    outline: none;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+} 
+.title {
+    font-size: 100px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.counter__wrapper-title {
+}
+
+.counter__wrapper-button {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.decrease {
+    color:red;
+    border: 2px solid red;
+}
+.decrease:hover {
+    background-color: red;
+    color: white;
+}
+.decrease {
+    color:red;
+    border: 2px solid red;
+}
+.increase:hover {
+    background-color: green;
+    color: white;
+}
+.increase {
+    color:green;
+    border: 2px solid green;
+}
+.increase:hover {
+    background-color: green;
+    color: white;
+}
+
+.reset:hover {
+    background-color: black;
+    color: white;
+}
+.reset {
+    color:black;
+    border: 2px solid black;
+}
+.reset:hover {
+    background-color: black;
+    color: white;
+}
+
+.reset {
+}
+.fa-solid {
+}
+.fa-trash-arrow-up {
+}
+.increase {
+}
